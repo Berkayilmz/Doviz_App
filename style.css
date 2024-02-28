@@ -1,0 +1,76 @@
+body {
+    background-color: #333; 
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+}
+
+.navbar {
+    background-color: #222 !important;
+}
+
+.btn-outline-primary {
+    color: #fff; 
+    background-color: #F7931A;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 6px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.btn-outline-primary:hover {
+    color: #000; 
+    background-color: #FFBB33; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+.card {
+    background-color: #444; 
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card.border-primary {
+    border-color: #fff; 
+}
+
+#result, #other-results {
+    margin-top: 20px; 
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-in-out; 
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #555; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 6px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+input[type="text"]:hover,
+input[type="number"]:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
